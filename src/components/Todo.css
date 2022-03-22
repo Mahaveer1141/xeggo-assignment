@@ -1,0 +1,69 @@
+.add-button {
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: rgb(95, 95, 218);
+  color: white;
+}
+
+.text-input {
+  padding: 1rem;
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+.logout-button {
+  font-size: 1.2rem;
+  background-color: red;
+  color: white;
+  margin-left: auto;
+}
+
+.todo-button {
+  font-size: 1rem;
+  background-color: green;
+  color: white;
+  margin-left: 1rem;
+}
+
+.todo-text {
+  font-size: 1.2rem;
+}
+
+.body-todo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.upper-todo {
+  margin-top: 1rem;
+  background-color: antiquewhite;
+  padding: 2rem;
+  border-radius: 10px;
+  flex-direction: column;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+  height: fit-content;
+  margin-bottom: 10px;
+}
+
+.con {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
